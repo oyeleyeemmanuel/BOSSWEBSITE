@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KHALILULLAH & CONTACT</title>
+    <link rel="stylesheet" href="./cssfolder/stylepages.css">
+    <link rel="stylesheet" href="./cssfolder/responsiveness.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav id="navbar">
+                    <div class="logo">
+                        <span class="stylec1">K</span><span class="stylec2">C</span><span class="stylec3">C</span>
+                    </div>
+
+                    <div class="aboutus hidde">
+                     <a href="index.html" target="_self" rel="" class="link">Home</a>   
+                     <a href="about.html" target="_self" rel="" class="link">About</a>  
+                     <a href="contact.html" target="_self" rel="" class="link current">Contact</a>    
+                    </div>
+                    <div class="showlist hidden">
+                        <img src="./icons/reorderoption.png" alt="">
+                    </div>
+            </nav>
+        </header>
+
+        <section id="contact-form">
+            <div class="container">
+                <h1 class="contacttext">Contact us</h1>
+                <p class="fill">Please fill out the form below to contact us</p>
+                <form action="">
+                   <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name">
+                   </div>
+
+                   <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email">
+                   </div>
+
+                   <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message">
+
+                    </textarea>
+                   </div>
+                   <button class="btn" type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section id="moreaboutus">
+            <p class="click">
+                You Can Click Anyone Out Of These Boxes To Call Us Or Message Us On Whatsapp Or On Facebook
+            </p>
+            <div class="container">
+                <div class="messageus">  
+                    <a href="tel:+2348118300215" class="call" target="_black" title="Click Here To Call Us">
+                        <img src="./icons/telephone.png" alt="">
+                        Call Us here
+                     </a>
+                </div>
+
+                <div class="messageus">  
+                    <a href="https://wa.me/2348168056857?text=Hello" class="call" target="_black" title="Click Here To Message Us On Whatsapp">
+                        <img src="./icons/005-whatsapp.png" alt="">
+                        Chat with Us here
+                     </a>
+                </div>
+
+                <div class="messageus">  
+                    <a href="https://www.facebook.com/profile.php?id=100076422700711" class="call" target="_black" title="Click Here To Message Us On Facebook">
+                        <img src="./icons/001-facebook.png" alt="">
+                        Chat with us here
+                     </a>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+<section id="footer">
+    <div class="container">
+        <p>
+            KHALILULLAH COMPUTER CENTER @ 2023, ALL RIGHTS RESERVED
+        </p>
+    </div>
+</section>
+        </footer>
+    </main>
+</body>
+
+<script>
+    const showlist = document.querySelector(".showlist")
+    showlist.addEventListener("click", ()=>{
+        document.querySelector(".aboutus").classList.toggle("hidde")
+    })
+</script>
+
+</html>

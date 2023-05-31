@@ -1,0 +1,248 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "arial black";
+}
+
+body{
+    background-image: url("../images/computerandmouse.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+}
+
+/* UTILITY CLASSES */
+.container{
+    /* background-color: gold; */
+    width: 90%;
+    margin: 0px auto;
+}
+
+.hidden{
+    display: none;
+}
+
+#navbar{
+    background-color: #B04863;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+}
+
+#navbar .logo{
+    font-size: 40px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+#navbar .logo .stylec1{
+    color: blue;
+}
+#navbar .logo .stylec2{
+    color: red;
+}
+#navbar .logo .stylec3{
+    color: green;
+}
+
+#navbar .aboutus{
+    margin-top: 12px;
+    margin-right: 50px;
+    font-size: 25px;
+}
+#navbar .aboutus .link{
+    margin-left: 25px;
+    text-decoration: none;
+    color: black;
+}
+#navbar .aboutus .link:hover,
+#navbar .aboutus .current{
+    color: pink;
+}
+
+/* SECTION ID = KHALILULLAHI */
+#khalilullahi h1{
+    text-align: center;
+    margin-top: 12%;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 20px;
+    cursor: pointer;
+    line-height: 1.8;
+}
+
+#khalilullahi .content{
+    font-family: cursive;
+    font-size: 15px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 50px;
+    cursor: pointer;
+}
+#khalilullahi .content:hover{
+    transform: scale(1.1, 1);
+    color: #B04863;
+}
+
+#khalilullahi .linktoabout{
+    display: flex;
+    justify-content: center;
+}
+
+#khalilullahi .homelink{
+    color: bisque;
+    font-size: 20px;
+    font-family: arial;
+    text-transform: capitalize;
+    text-decoration: none;
+    border: 2px solid #B04863;
+    box-shadow: 1px 1px palevioletred;
+    padding: 5px 0px;
+    border-radius: 15px;
+    margin-top: 60px;
+    background-color: #B04863;
+}
+#khalilullahi .homelink:hover{
+    background-color: #B04863;
+    color: white;
+    box-shadow: 1px 4px white;
+}
+
+/* ABOUT START FROM HERE */
+#listcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+
+#listcontainer .listgrid{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+    font-size: 25px;
+    padding: 20px 0px;
+    width: 70%;
+    height: auto;
+    box-shadow: 3px 3px bisque;
+    border: 2px solid bisque;
+    background-color: rgba(255, 228, 196, 0.2);
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+#listcontainer .listgrid > p{
+    cursor: pointer;
+    text-align: center;
+}
+#listcontainer .listgrid > p:hover{
+    border: 2px solid bisque;
+    background-color: rgba(255, 228, 196, 0.2);
+    color: #B04863;
+    padding: 4px;
+    border-radius: 20px;
+}
+
+/* CONTACT START FROM HERE */
+
+.contacttext, p{
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+.contacttext{
+    color: #B04863;
+}
+
+#contact-form{
+    margin-top: 70px;
+}
+
+#contact-form .form-group{
+    margin-bottom: 20px;
+}
+
+#contact-form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea{
+    width: 100%;
+    padding: 5px;
+    border: 1px #ddd solid;
+}
+#contact-form input:focus,
+#contact-form textarea:focus{
+    outline: none;
+    border-color: #B04863;
+}
+
+#contact-form textarea{
+    height: 150px;
+}
+
+.btn{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.btn:hover{
+    background-color: #B04863;
+    color: white;
+}
+
+#moreaboutus{
+    border: 2px solid bisque;
+    background-color: rgba(173, 117, 49, 0.2);
+    border-top-left-radius: 90px;
+    border-bottom-right-radius: 90px;   
+}
+#moreaboutus .messageus{
+    width: 20%;
+    display: inline-flex;
+    justify-content: center;
+    border: 1px solid white;
+    margin-top: 15px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+#moreaboutus .messageus:hover{
+    background-color: #B04863;
+}
+
+#moreaboutus .messageus .call{
+    text-decoration: none;
+}
+#moreaboutus .messageus .call:hover{
+    color: white;
+}
+
+#moreaboutus .click{
+    text-align: center;
+    margin-top: 15px;
+}
+
+#moreaboutus .messageus .call > img{
+    margin: 10px auto;
+    display: block;
+}
+
+/* SECTION FOOTER */
+#footer{
+    height: 50px;
+    margin-top: 100px;
+    background-color: #B04863;
+}
+
+#footer p{
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+}

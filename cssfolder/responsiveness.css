@@ -1,0 +1,412 @@
+
+
+@media(max-width: 1028px) {
+    body{
+      background-position-y: center;
+      background-size: cover;
+    }
+  
+    #khalilullahi h1{
+     margin-top: 15%;
+     line-height: 2;
+  }
+  
+  #khalilullahi .content{
+     font-weight: 600;
+     margin-bottom: 30px;
+  }
+  
+  #khalilullahi .linktoabout .homelink{
+    padding: 10;
+  } 
+  
+  .click{
+    text-align: center;
+    font-size: 15px;
+  }
+
+  #moreaboutus{
+    width: 900px;
+    margin: 20px 0px 0px 30px;
+}
+
+#footer{
+    margin-top: 200px;
+}
+  }
+
+
+/* 565 START FROM HERE */
+
+@media (max-width: 375px) and (orientation: portrait){
+    body{
+        background-position-y: center;
+        background-size: cover;
+      }
+    #navbar{
+        height: 50px;
+
+    }
+    #navbar .logo{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 4px;
+    }
+    
+    #navbar .hidde{
+        display: none;
+        font-size: 20px;
+        margin-right: 0px;
+        line-height: 1.5;
+        height: 85px;
+    }
+    #navbar .aboutus .link{
+        background-color: #B04863;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 8px;
+        display: block;
+        width: 160px;
+        position: relative;
+        top: 40px;
+        left: 90px;   
+    }
+    .hidden{
+        display: block;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #khalilullahi h1{
+        width: 250px;
+        font-size: 15px;
+        letter-spacing: 10px;
+        line-height: 2;
+        padding-top:40px;
+    }
+    #khalilullahi .content{
+        width: 200px;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 30px;
+    }
+    #khalilullahi .homelink{
+        width: 150px;
+        word-wrap: break-word;
+        text-align: center;
+        font-size: 15PX;
+        padding: 5px;
+        border-radius: 15px;
+        display: inline-block;
+        margin-bottom: 200px;
+        margin-left: 0px;
+    }
+
+    /* ABOUT START FROM HERE */
+
+    #listcontainer{
+        margin-bottom: 20px;
+    }
+
+    #listcontainer .listgrid{
+        font-size: 15px;
+    }
+
+    /* CONTACT START FROM HERE */
+    .fill{
+        font-size: 14px;
+    }
+
+    #moreaboutus{
+        width: 350px;
+        margin: 15px 5px;
+   }
+
+   #moreaboutus .messageus{
+        font-size: 15px;
+   }
+
+    #moreaboutus .click{
+        padding-top: 20px;
+    }
+
+    #moreaboutus .messageus{
+    width: 50%;
+    margin-left: 20px;
+    }
+
+    #footer{
+        height: 40px;
+        margin-top: 0px;
+    }
+    
+    #footer p{
+        font-size: 10px;
+        font-family: arial;
+        font-weight: 500;
+        font-style: oblique;
+        text-align: left;
+        padding-top: 14px;
+    } 
+    
+    #footer{
+        margin-top: 80px;
+    }
+}
+
+/* LANDSCAPE STAR FROM HERE 375 */
+
+@media(max-height: 375px) and (orientation: landscape){
+   
+    body{
+        background-position-y: center;
+        background-size: cover;
+      }
+    #navbar{
+        height: 50px;
+    }
+    #navbar .logo{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 4px;
+    }
+    
+    #navbar .hidde{
+        display: none;
+        font-size: 20px;
+        margin-right: 0px;
+        line-height: 1.5;
+        height: 85px;
+    }
+    #navbar .aboutus .link{
+        background-color: #B04863;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 8px;
+        display: block;
+        width: 160px;
+        position: relative;
+        top: 40px;
+        left: 90px;   
+    }
+    .hidden{
+        display: block;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #khalilullahi h1{
+        width: 250px;
+        font-size: 15px;
+        letter-spacing: 10px;
+        line-height: 2;
+    }
+    #khalilullahi .content{
+        width: 200px;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    #khalilullahi .homelink{
+        width: 150px;
+        word-wrap: break-word;
+        text-align: center;
+        font-size: 15PX;
+        padding: 5px;
+        border-radius: 15px;
+        display: inline-block;
+        margin-bottom: 225px;
+        margin-left: 0px;
+    }
+
+    #listcontainer{
+        margin-bottom: 20px;
+    }
+
+    #footer{
+        height: 40px;
+        margin-top: 0px;
+    }
+    
+    #footer p{
+        font-size: 12px;
+        font-family: arial;
+        font-weight: 700;
+        font-style: oblique;
+        text-align: left;
+        padding-top: 12px;
+    }    
+}
+
+/* DEVICE 425 START FROM HERE */
+
+@media(min-width: 376px) and (max-width: 425px) and (orientation: portrait){
+    
+    body{
+        background-position-y: center;
+        background-size: cover;
+      }
+    #navbar{
+        height: 50px;
+    }
+    #navbar .logo{
+        font-size: 30px;
+        margin-left: 30px;
+        margin-top: 4px;
+    }
+    
+    #navbar .hidde{
+        display: none;
+        font-size: 20px;
+        margin-right: 0px;
+        line-height: 1.5;
+        height: 85px;
+    }
+    #navbar .aboutus .link{
+        background-color: #B04863;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 8px;
+        display: block;
+        width: 160px;
+        position: relative;
+        top: 40px;
+        left: 120px;    
+    }
+    .hidden{
+        display: block;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #khalilullahi h1{
+        width: 250px;
+        font-size: 15px;
+        letter-spacing: 10px;
+        line-height: 2;
+        margin-top: 20%;
+        padding-top:40px;
+    }
+    #khalilullahi .content{
+        width: 200px;
+        font-size: 15px;
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+    #khalilullahi .homelink{
+        width: 150px;
+        word-wrap: break-word;
+        text-align: center;
+        font-size: 15PX;
+        padding: 5px;
+        border-radius: 15px;
+        display: inline-block;
+        margin-bottom: 200px;
+        margin-left: 0px;
+    }
+
+    #listcontainer{
+        margin-bottom: 20px;
+    }
+
+     /* CONTACT START FROM HERE */
+     .fill{
+        font-size: 15px;
+    }
+
+    #moreaboutus .click{
+        text-align: center;
+        padding-top: 25px;
+    }
+
+    
+    #moreaboutus{
+        width: 370px;
+        margin: 15px 15px;
+   }
+
+    #moreaboutus .messageus{
+    width: 50%;
+    margin-left: 20px;
+    }
+
+    #footer{
+        height: 40px;
+        margin-top: 0px;
+    }
+    
+    #footer p{
+        font-size: 10px;
+        font-family: arial;
+        font-weight: 500;
+        font-style: oblique;
+        text-align: left;
+        padding-top: 14px;
+    } 
+    
+    #footer{
+        margin-top: 60px;
+    }
+}
+
+/* DEVICE 768 START FROM HERE */
+@media(min-width: 426px) and (max-width: 768px) {
+  body{
+    background-position-y: center;
+    background-size: cover;
+  }
+
+  #khalilullahi h1{
+    padding-top: 40px;
+    line-height: 2;
+}
+
+#khalilullahi .content{
+    font-size: 20px;
+    margin-top: 100px;
+   font-weight: 600;
+}
+
+#khalilullahi .linktoabout .homelink{
+    padding: 10px;
+}    
+
+ /* CONTACT START FROM HERE */
+ 
+#moreaboutus .click{
+    padding-top: 40px;
+}
+
+#moreaboutus{
+    width: 700px;
+    margin: 20px 15px 0px 15px;
+}
+
+#moreaboutus .messageus{
+width: 50%;
+margin-left: 160px;
+}
+
+#footer{
+    margin-top: 180px;
+}
+}
+

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KHALILULLAH & WELCOME</title>
+    <link rel="stylesheet" href="./cssfolder/stylepages.css">
+    <link rel="stylesheet" href="./cssfolder/responsiveness.css">
+</head>
+<body>
+    <main>
+        <header>
+            <nav id="navbar">
+                    <div class="logo">
+                        <span class="stylec1">K</span><span class="stylec2">C</span><span class="stylec3">C</span>
+                    </div>
+
+                    <div class="aboutus hidde">
+                     <a href="index.html" target="_blank" rel="" class="link current">Home</a>   
+                     <a href="about.html" target="_self" rel="" class="link">About</a>  
+                     <a href="contact.html" target="_self" rel="" class="link">Contact</a>    
+                    </div>
+                    <div class="showlist hidden">
+                        <img src="./icons/reorderoption.png" alt="">
+                    </div>
+            </nav>
+        </header>
+
+<section id="khalilullahi">
+    <div class="container">
+        <h1>KHALILULLAH COMPUTER CENTER</h1>
+        <p class="content">
+            We are trusted and reliable. Try us today 100% sure you will enjoy our hand works.
+        </p>
+
+        <div class="linktoabout">
+            <a href="about.html" target="_self" class="homelink">Click Here to know more about us</a>
+        </div>
+        
+    </div>
+
+</section>
+
+        <footer>
+<section id="footer">
+    <div class="container">
+        <p>
+            KHALILULLAH COMPUTER CENTER @ 2023, ALL RIGHTS RESERVED
+        </p>
+    </div>
+</section>
+        </footer>
+    </main>
+</body>
+<script>
+    const showlist = document.querySelector(".showlist")
+    showlist.addEventListener("click", ()=>{
+        document.querySelector(".aboutus").classList.toggle("hidde")
+    })
+</script>
+</html>
